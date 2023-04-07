@@ -1,0 +1,48 @@
+
+
+body {
+    background-color: black;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    background-color: white;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul#main li{
+    float:left;
+    position: static;
+    width: 150px;
+}
+
+ul#main li ul{
+    display: none;
+    position: static;
+    left: 0;
+    top: 50px;
+}
+ul li a{
+    display: block;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    background-color: yellow;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    background-color:white;
+}
+
+ul#main li:hover ul{
+    display: block;
+}
